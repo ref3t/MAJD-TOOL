@@ -3174,7 +3174,6 @@ public class NewJFrame extends javax.swing.JFrame {
             bw.append("      WebElement elem=driver.findElement(By."+actionType+"(\"" + dataqa + "\"));\n");
             bw.append("      if (!\""+value+"\".trim().equalsIgnoreCase(elem.getText().trim())) {\n");
             bw.append("         throw (new Exception ( \"exception value must be equals\"));\n");
-            
             bw.append("      }\n");
 
         }
