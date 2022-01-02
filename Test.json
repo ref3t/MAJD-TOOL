@@ -1,0 +1,33 @@
+[
+		{
+			"step#:1":{
+			"Element Name:":"URL ",
+			"Step Action:":"URL",
+			"Step number :":1,
+			"XPATH Element:":"http:\/\/qaautomationdsvl.000webhostapp.com\/index.php",
+			"Step discription:":"Step-1 _ Add URL to Test",
+
+		}
+		},
+		{
+			"step#:2":
+			{
+					"Element Name:":"admin",
+					"Step Action:":"WRITE",
+					"Step number :":2,
+					"XPATH Element:":"\/html\/body\/div[2]\/div\/form\/div\/div\/input[1]",
+					"Step discription:":"Step-2 _ Add WRITE Action ",
+					"action Type:":"xpath"}
+		},
+		{
+			"step#:3":
+			{
+				"Element Name:":"admin",
+				"Step Action:":"WRITE",
+				"Step number :":3,
+				"XPATH Element:":"\/html\/body\/div[2]\/div\/form\/div\/div\/input[2]",
+				"Step discription:":"Step-3 _ Add WRITE Action ",
+				"action Type:":"xpath"
+			}
+		}
+]
